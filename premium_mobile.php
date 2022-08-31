@@ -98,62 +98,7 @@
                 <br />
 
 
-
-
-
-
-
-
-
-
-
-                <div class="premium_notify_container">
-                    <div class="premium_notify">
-                        <div class="premium_notify_header">
-                            <span >Чтобы читать дальше, оформите <br/> <span>подписку <img src="https://smart-lab.ru/templates/skin/smart-lab-x3/images/premium.svg" style="width: 15px; margin: 0"> Premium</span></span>
-                        </div>
-                        <div class="premium_notify_tariffs">
-                            <div class="prem_tarif_card">
-                                <div class="tarif_card_header">
-                                    <span>На месяц</span>
-                                </div>
-                                <div class="tarif_card_body">
-                                    <span class="amount"> 2,499 ₽</span><span class="in_month"> / в месяц</span>
-                                </div>
-                                <div class="tarif_card_footer">
-                                    <button class="box-btn-m">Что в подписке?</button>
-                                </div>
-                            </div>
-                            <div class="prem_tarif_card year_prem">
-                                <div class="tarif_card_header">
-                                    <span>На год + <span class="underline">3 месяца в подарок</span></span>
-                                </div>
-                                <div class="tarif_card_body">
-                                    <s class="old_price">2,499</s><span class="amount"> 1,333 ₽</span><span class="in_month"> / в месяц</span>
-                                </div>
-                                <div class="tarif_card_footer">
-                                    <button class="box-btn-y">Что в подписке?</button>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="premium_notify_btn_block">
-                            <button class="btn_go" href="#">Оформить подписку</button>
-                            <button class="btn_info" href="#">Подробнее</button>
-                        </div>
-                        <div class="premium_notify_link_block">
-                            <button class="link_style" href="#">Есть Smart-Lab Premium? Войдите</button>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
+                <?php include_once "body.html"?>
 
 
             </div>
@@ -357,53 +302,7 @@
     </div>
 </div>
 
-<div id="popup_m" class="popup__overlay hidden">
-    <form action="" method="post" class="prem_popup_container">
-        <div class="prem_popup_close" id="popup_close_m"><img src="../img/popup/close_popup.png" style="width: 15px"></div>
-        <div class="popup_title"><img src="https://smart-lab.ru/templates/skin/smart-lab-x3/images/premium.svg" style="width: 18px; margin: 0"> Premium на <span>месяц</span></div>
-        <div class="popup_description">
-            <ul>
-                <li>Доступ к закрытым материалам, включая аналитику от Mozgovik Research</li>
-                <li>Прогнозы по российским акциям: рейтинг от Mozgovik Research</li>
-                <li>Долгосрочная инвестиционная стратегия</li>
-                <li>Инсайдерские мнения </li>
-                <li>Авторитетные комментарии по текущей ситуации на рынке</li>
-                <li>Объяснения какое влияние новости могут оказать на акции и другие активы</li>
-                <li>Регулярная публикация инвестиционных портфелей участников команды с комментариями</li>
-                <li>Бесплатный доступ ко всем платным видео (конференции, инвест идеи)</li>
-                <li class="inactive"><s>Telegram - чат с нашей командой, где можно задать любой вопрос и оперативно получить ответы</s></li>
-                <li class="inactive"><s>Возможность принять участие в отдельной конференции для годовых подписчиков</s></li>
-                <li class="inactive"><s>Cкидка 50% на конференцию смартлаба</s></li>
-                <li class="inactive"><s>Три месяца подписки в <strong>подарок</strong>!</s></li>
-            </ul>
-        </div>
-
-    </form>
-</div>
-<div id="popup_y" class="popup__overlay hidden">
-    <form action="" method="post" class="prem_popup_container">
-        <div class="prem_popup_close" id="popup_close_y"><img src="../img/popup/close_popup.png" style="width: 15px"></div>
-        <div class="popup_title"><img src="https://smart-lab.ru/templates/skin/smart-lab-x3/images/premium.svg" style="width: 18px; margin: 0"> Premium на <span>год</span></div>
-        <div class="popup_description">
-            <ul>
-                <li>Доступ к закрытым материалам, включая аналитику от Mozgovik Research</li>
-                <li>Прогнозы по российским акциям: рейтинг от Mozgovik Research</li>
-                <li>Долгосрочная инвестиционная стратегия</li>
-                <li>Инсайдерские мнения </li>
-                <li>Авторитетные комментарии по текущей ситуации на рынке</li>
-                <li>Объяснения какое влияние новости могут оказать на акции и другие активы</li>
-                <li>Регулярная публикация инвестиционных портфелей участников команды с комментариями</li>
-                <li>Бесплатный доступ ко всем платным видео (конференции, инвест идеи)</li>
-                <li>Telegram - чат с нашей командой, где можно задать любой вопрос и оперативно получить ответы</li>
-                <li>Возможность принять участие в отдельной конференции для годовых подписчиков</li>
-                <li>Cкидка 50% на конференцию смартлаба</li>
-                <li>Три месяца подписки в <strong>подарок</strong>!</li>
-            </ul>
-        </div>
-
-    </form>
-</div>
-
+<?php include_once "popup.html"?>
 
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Material+Icons:400" />
 <link rel="stylesheet" type="text/css" href="https://smart-lab.ru/plugins/mobile/templates/skin/default/actions/ActionMobile/css/fonts.css" />
