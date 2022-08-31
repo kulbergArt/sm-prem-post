@@ -1,0 +1,232 @@
+.premium_notify_container{
+    display: block;
+    background-color: #F3F3F3;
+    margin: 0 -10px;
+}
+.premium_notify:before {
+    content: '';
+    display: block;
+    height: 145px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 9;
+    top: -145px;
+    background: linear-gradient(180deg, rgba(238, 238, 238, 0) .3%, #f3f3f3 97.18%);
+    cursor: pointer;
+}
+.premium_notify{
+    display: block;
+    padding:  20px 10px;
+    position: relative;
+}
+.premium_notify_header{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.premium_notify_tariffs{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.prem_tarif_card{
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 8%);
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+.prem_tarif_card:hover{
+    border-color: rgba(245, 144, 13, 0.87);
+}
+.premium_notify_btn_block{
+    width: 60%;
+    margin: 10px auto;
+}
+.premium_notify_btn_block .btn_go{
+    width: 100%;
+    display: block;
+    color: #0a0f16;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(245, 144, 13, 0.87);
+    padding: 17px 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.premium_notify_btn_block .btn_go:hover{
+    background-color: rgba(245, 144, 13, 0.74);
+}
+
+.premium_notify_btn_block .btn_info{
+    width: 100%;
+    display: block;
+    color: #0a0f16;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d0d0d0;
+    padding: 17px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.premium_notify_btn_block .btn_info:hover{
+    background-color: rgba(208, 208, 208, 0.73);
+
+}
+.premium_notify_link_block{
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+}
+.premium_notify_link_block{
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+}
+.premium_notify_link_block .link_style {
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #6B6B6B;
+    color: #6B6B6B;
+}
+.premium_notify_link_block .link_style:hover {
+    color: #8f8f8f;
+    border-color: #a6a6a6;
+}
+.tarif_card_header{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.tarif_card_header .underline{
+    border-bottom: 1px solid rgba(245, 144, 13, 0.87);
+}
+.tarif_card_body{
+    text-align: center;
+    padding: 5px 0;
+}
+.tarif_card_body .amount{
+    color: #323232;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.tarif_card_body .old_price{
+    font-size: 15px;
+}
+.tarif_card_body .in_month{
+    font-size: 14px;
+    color: #434343;
+}
+.tarif_card_footer{
+    padding-top: 2px;
+    text-align: right;
+}
+.tarif_card_footer button{
+    color: #7e7e7e;
+    font-size: 13px;
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    background: transparent;
+}
+.tarif_card_footer button:hover{
+    color: #bababa;
+}
+
+@media(max-width: 820px){
+    .premium_notify_btn_block{
+        width: 100%;
+    }
+    .premium_notify_tariffs{
+        width: 100%;
+
+    }
+}
+
+/*------------ Всплывающее окно тарифов ----------------*/
+.popup__overlay {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+}
+.prem_popup_container {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 0 5px rgb(125, 125, 125);
+    box-sizing: border-box;
+    height: auto;
+    width: 520px;
+    padding: 25px;
+    margin: 130px auto;
+    position: relative;
+}
+.popup_title{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -.1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.popup_title span {
+    color: rgba(245, 144, 13, 0.87);
+}
+.popup_description {
+    font-size: 14px;
+    line-height: 20px;
+}
+.popup_description ul{
+    padding:0;
+}
+.popup_description ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+.popup_description ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 28px;
+}
+.popup_description ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/popup/check_popup2.svg);
+}
+.popup_description ul li.inactive:before {
+    background-image: url(../img/popup/cross_popup.svg);
+}
+.prem_popup_close{
+    display: block;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+@media(max-width: 820px){
+    .prem_popup_container {
+        width: 90%;
+        margin: 20px auto;
+        font-size: 11px;
+        padding: 15px;
+    }
+}
+/*-------------------------------------------------------*/
