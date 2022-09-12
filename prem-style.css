@@ -21,6 +21,7 @@
     padding:  20px 10px;
     position: relative;
 }
+
 .premium_notify_header{
     text-align: center;
     color: #000;
@@ -43,7 +44,6 @@
     margin-bottom: 10px;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-
 }
 .prem_tarif_card:hover{
     border-color: rgba(245, 144, 13, 0.87);
@@ -88,6 +88,10 @@
     background-color: rgba(208, 208, 208, 0.73);
 
 }
+.premium_notify_btn_block .btn_info:visited{
+    color: #0a0f16;
+
+}
 .premium_notify_link_block{
     text-align: center;
     width: 60%;
@@ -110,10 +114,14 @@
     color: #8f8f8f;
     border-color: #a6a6a6;
 }
+.premium_notify_link_block .link_style:visited {
+    color: #6B6B6B;
+}
 .tarif_card_header{
     text-align: center;
     font-size: 14px;
     font-weight: 500;
+    color: #323232;
 }
 .tarif_card_header .underline{
     border-bottom: 1px solid rgba(245, 144, 13, 0.87);
@@ -130,6 +138,7 @@
 
 .tarif_card_body .old_price{
     font-size: 15px;
+    color: #323232;
 }
 .tarif_card_body .in_month{
     font-size: 14px;
