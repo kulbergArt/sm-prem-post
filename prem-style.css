@@ -34,22 +34,26 @@
     margin-bottom: 20px;
 }
 .prem_tarif_card{
+    display: block;
     padding: 10px;
     border: 1px solid #dee2e6;
     border-radius: 10px;
     box-shadow: 0 4px 16px rgb(0 0 0 / 8%);
     background-color: #ffffff;
     margin-bottom: 10px;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
 }
 .prem_tarif_card:hover{
     border-color: rgba(245, 144, 13, 0.87);
+    cursor: pointer;
 }
 .premium_notify_btn_block{
     width: 60%;
     margin: 10px auto;
 }
 .premium_notify_btn_block .btn_go{
-    width: 100%;
     display: block;
     color: #0a0f16;
     text-align: center;
@@ -60,13 +64,13 @@
     padding: 17px 10px;
     font-weight: 600;
     margin-bottom: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .premium_notify_btn_block .btn_go:hover{
     background-color: rgba(245, 144, 13, 0.74);
 }
 
 .premium_notify_btn_block .btn_info{
-    width: 100%;
     display: block;
     color: #0a0f16;
     text-align: center;
@@ -78,6 +82,7 @@
     text-decoration: none;
     font-weight: 600;
     margin-bottom: 20px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .premium_notify_btn_block .btn_info:hover{
     background-color: rgba(208, 208, 208, 0.73);
@@ -98,6 +103,8 @@
     border: none;
     border-bottom: 1px solid #6B6B6B;
     color: #6B6B6B;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .premium_notify_link_block .link_style:hover {
     color: #8f8f8f;
